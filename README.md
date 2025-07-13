@@ -1,11 +1,11 @@
 # Dragon-panel
 
-# modded version of codesanbox: Docker
+### modded version of codesanbox: Docker
 
 ```
 sudo su
 ```
-# install the Fox-panel
+# install the Dragon-panel
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/Omar9282jwee/Dragon-panel/refs/heads/main/Panel)
@@ -24,7 +24,7 @@ cd node
 node . 
 ```
 
-# again start your panel
+### again start your panel
 
 ```
 cd panel
@@ -33,7 +33,7 @@ cd panel
 node . 
 ```
 
-# again start node
+### again start node
 
 - create a new terminal
 ```
@@ -41,4 +41,15 @@ cd node
 ```
 ```
 node . 
+```
+
+### ip-costom
+```
+wget https://github.com/playit-cloud/playit-agent/releases/download/v0.15.26/playit-linux-amd64
+chmod +x playit-linux-amd64
+./playit-linux-amd64
+```
+### for again start ->
+```
+./playit-linux-amd64
 ```
